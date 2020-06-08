@@ -19,7 +19,7 @@ function CustomizeForm(props) {
                 </FeatureSelect>
             );
         });
-  
+
         return (
             <fieldset className="feature" key={featureHash}>
                 <legend className="feature__name">
